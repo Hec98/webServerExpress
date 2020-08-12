@@ -40,4 +40,4 @@ res.send(salida);
 const hora = new Date().getHours();
 const minutos = new Date().getMinutes();
 const segundos = new Date().getSeconds();
-app.listen(3000, () => console.log(`Escuchando peticiones en el puerto ${port} ${hora}:${minutos}:${segundos}`));
+app.listen(port, () => console.log(`Escuchando peticiones en el puerto ${port} ${hora}:${minutos}:${segundos}`));
